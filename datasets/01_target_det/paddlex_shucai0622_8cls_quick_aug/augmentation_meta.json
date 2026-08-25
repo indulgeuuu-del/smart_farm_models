@@ -1,0 +1,35 @@
+{
+  "source_dir": "datasets\\01_target_det\\paddlex_shucai0622_8cls_quick",
+  "policy": "target_det_train_only_offline_augmentation",
+  "augmentations": [
+    "flip",
+    "vflip",
+    "exposure",
+    "blur",
+    "noise",
+    "shadow",
+    "object_flip",
+    "object_vflip",
+    "object_rotate180"
+  ],
+  "variants_per_image": 1,
+  "hard_case_labels": [
+    "rape",
+    "broccoli",
+    "potato",
+    "celery",
+    "mushroom",
+    "flammulina velutipes",
+    "tomato",
+    "green bean"
+  ],
+  "hard_case_extra": 1,
+  "seed": 20260623,
+  "original_train_images": 1613,
+  "augmented_train_images": 3226,
+  "train_images": 4839,
+  "train_annotations": 32595,
+  "val_images": 403,
+  "test_images": 403,
+  "note": "Only train split is augmented; val/test are copied unchanged."
+}

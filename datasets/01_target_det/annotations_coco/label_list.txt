@@ -1,0 +1,15 @@
+animal
+cylinder_3
+cylinder_1
+cylinder_2
+water
+water_l3
+water_l2
+lable_yellow
+storage
+ball_yellow
+order
+name
+cargo
+ball_blue
+lable_blue

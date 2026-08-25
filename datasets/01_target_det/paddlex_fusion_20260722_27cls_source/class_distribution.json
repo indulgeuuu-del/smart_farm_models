@@ -1,0 +1,336 @@
+{
+  "dataset_dir": "datasets\\01_target_det\\paddlex_fusion_20260722_27cls_source",
+  "weak_threshold": 500,
+  "sources": [
+    {
+      "source_root": "MyDataset\\My_Formal_Target_0619",
+      "dataset_dir": "MyDataset\\My_Formal_Target_0619\\2741912_1781882115",
+      "annotation_path": "MyDataset\\My_Formal_Target_0619\\2741912_1781882115\\Annotations\\coco_info.json",
+      "images": 4500,
+      "annotations": 7620,
+      "categories": [
+        "animal",
+        "ball_blue",
+        "ball_yellow",
+        "cylinder_1",
+        "cylinder_2",
+        "cylinder_3",
+        "cylinder_set",
+        "order",
+        "water",
+        "water_l1",
+        "water_l2",
+        "water_l3"
+      ],
+      "category_annotations": {
+        "animal": 1625,
+        "ball_blue": 360,
+        "ball_yellow": 322,
+        "cylinder_1": 574,
+        "cylinder_2": 585,
+        "cylinder_3": 623,
+        "cylinder_set": 834,
+        "order": 623,
+        "water": 1193,
+        "water_l1": 306,
+        "water_l2": 294,
+        "water_l3": 281
+      },
+      "example_image_mapping": {
+        "0000.jpg": "s00_my_formal_target_0619_000000.jpg",
+        "0001.jpg": "s00_my_formal_target_0619_000001.jpg",
+        "0002.jpg": "s00_my_formal_target_0619_000002.jpg",
+        "0003.jpg": "s00_my_formal_target_0619_000003.jpg",
+        "0004.jpg": "s00_my_formal_target_0619_000004.jpg"
+      }
+    },
+    {
+      "source_root": "MyDataset\\Target_name",
+      "dataset_dir": "MyDataset\\Target_name\\2736433_1781342396",
+      "annotation_path": "MyDataset\\Target_name\\2736433_1781342396\\Annotations\\coco_info.json",
+      "images": 684,
+      "annotations": 1953,
+      "categories": [
+        "name"
+      ],
+      "category_annotations": {
+        "name": 1953
+      },
+      "example_image_mapping": {
+        "0000.jpg": "s01_target_name_000000.jpg",
+        "0001.jpg": "s01_target_name_000001.jpg",
+        "0002.jpg": "s01_target_name_000002.jpg",
+        "0003.jpg": "s01_target_name_000003.jpg",
+        "0004.jpg": "s01_target_name_000004.jpg"
+      }
+    },
+    {
+      "source_root": "MyDataset\\Target_order and danyuan_0608",
+      "dataset_dir": "MyDataset\\Target_order and danyuan_0608\\2732128_1780914380",
+      "annotation_path": "MyDataset\\Target_order and danyuan_0608\\2732128_1780914380\\Annotations\\coco_info.json",
+      "images": 1335,
+      "annotations": 1604,
+      "categories": [
+        "danyuan_1",
+        "danyuan_2",
+        "order"
+      ],
+      "category_annotations": {
+        "danyuan_1": 314,
+        "danyuan_2": 311,
+        "order": 979
+      },
+      "example_image_mapping": {
+        "0000.jpg": "s02_target_order_and_danyuan_0608_000000.jpg",
+        "0000_1.jpg": "s02_target_order_and_danyuan_0608_000001.jpg",
+        "0001.jpg": "s02_target_order_and_danyuan_0608_000002.jpg",
+        "0001_1.jpg": "s02_target_order_and_danyuan_0608_000003.jpg",
+        "0002.jpg": "s02_target_order_and_danyuan_0608_000004.jpg"
+      }
+    },
+    {
+      "source_root": "MyDataset\\Target_storage0621",
+      "dataset_dir": "MyDataset\\Target_storage0621\\2742707_1782055471",
+      "annotation_path": "MyDataset\\Target_storage0621\\2742707_1782055471\\Annotations\\coco_info.json",
+      "images": 1508,
+      "annotations": 1508,
+      "categories": [
+        "lable_blue",
+        "lable_yellow",
+        "storage"
+      ],
+      "category_annotations": {
+        "lable_blue": 412,
+        "lable_yellow": 468,
+        "storage": 628
+      },
+      "example_image_mapping": {
+        "2023.jpg": "s03_target_storage0621_000000.jpg",
+        "2024.jpg": "s03_target_storage0621_000001.jpg",
+        "2025.jpg": "s03_target_storage0621_000002.jpg",
+        "2026.jpg": "s03_target_storage0621_000003.jpg",
+        "2027.jpg": "s03_target_storage0621_000004.jpg"
+      }
+    },
+    {
+      "source_root": "D:\\A CarCarCar\\26th BaiDu\\Online Competition\\数据集合集\\自己采集的\\标注好了的\\Target_shucai0722(1)",
+      "dataset_dir": "D:\\A CarCarCar\\26th BaiDu\\Online Competition\\数据集合集\\自己采集的\\标注好了的\\Target_shucai0722(1)\\2762349_1784723087",
+      "annotation_path": "D:\\A CarCarCar\\26th BaiDu\\Online Competition\\数据集合集\\自己采集的\\标注好了的\\Target_shucai0722(1)\\2762349_1784723087\\Annotations\\coco_info.json",
+      "images": 2189,
+      "annotations": 2189,
+      "categories": [
+        "broccoli",
+        "celery",
+        "flammulina velutipes",
+        "green bean",
+        "green pepper",
+        "mushroom",
+        "potato",
+        "rape",
+        "tomato"
+      ],
+      "category_annotations": {
+        "broccoli": 240,
+        "celery": 236,
+        "flammulina velutipes": 250,
+        "green bean": 239,
+        "green pepper": 241,
+        "mushroom": 265,
+        "potato": 240,
+        "rape": 240,
+        "tomato": 238
+      },
+      "example_image_mapping": {
+        "0802.jpg": "s04_target_shucai0722_1_000000.jpg",
+        "0803.jpg": "s04_target_shucai0722_1_000001.jpg",
+        "0804.jpg": "s04_target_shucai0722_1_000002.jpg",
+        "0805.jpg": "s04_target_shucai0722_1_000003.jpg",
+        "0806.jpg": "s04_target_shucai0722_1_000004.jpg"
+      }
+    },
+    {
+      "source_root": "D:\\A CarCarCar\\26th BaiDu\\Online Competition\\数据集合集\\自己采集的\\标注好了的\\Target_shucai0722(2)",
+      "dataset_dir": "D:\\A CarCarCar\\26th BaiDu\\Online Competition\\数据集合集\\自己采集的\\标注好了的\\Target_shucai0722(2)\\2762351_1784723534",
+      "annotation_path": "D:\\A CarCarCar\\26th BaiDu\\Online Competition\\数据集合集\\自己采集的\\标注好了的\\Target_shucai0722(2)\\2762351_1784723534\\Annotations\\coco_info.json",
+      "images": 802,
+      "annotations": 5526,
+      "categories": [
+        "broccoli",
+        "celery",
+        "flammulina velutipes",
+        "green bean",
+        "green pepper",
+        "mushroom",
+        "potato",
+        "rape",
+        "tomato"
+      ],
+      "category_annotations": {
+        "broccoli": 698,
+        "celery": 698,
+        "flammulina velutipes": 699,
+        "green bean": 699,
+        "green pepper": 349,
+        "mushroom": 688,
+        "potato": 675,
+        "rape": 676,
+        "tomato": 344
+      },
+      "example_image_mapping": {
+        "0000.jpg": "s05_target_shucai0722_2_000000.jpg",
+        "0001.jpg": "s05_target_shucai0722_2_000001.jpg",
+        "0002.jpg": "s05_target_shucai0722_2_000002.jpg",
+        "0003.jpg": "s05_target_shucai0722_2_000003.jpg",
+        "0004.jpg": "s05_target_shucai0722_2_000004.jpg"
+      }
+    }
+  ],
+  "splits": {
+    "train": {
+      "images": 8812,
+      "annotations": 15290,
+      "class_counts": {
+        "water_l3": 210,
+        "water_l2": 230,
+        "water_l1": 220,
+        "water": 859,
+        "order": 1153,
+        "cylinder_set": 630,
+        "cylinder_3": 495,
+        "cylinder_2": 427,
+        "cylinder_1": 429,
+        "ball_yellow": 245,
+        "ball_blue": 259,
+        "animal": 1283,
+        "name": 1503,
+        "danyuan_2": 239,
+        "danyuan_1": 229,
+        "storage": 438,
+        "lable_yellow": 350,
+        "lable_blue": 310,
+        "rape": 681,
+        "broccoli": 683,
+        "potato": 685,
+        "celery": 717,
+        "mushroom": 693,
+        "flammulina velutipes": 727,
+        "tomato": 441,
+        "green bean": 707,
+        "green pepper": 447
+      }
+    },
+    "val": {
+      "images": 1102,
+      "annotations": 2619,
+      "class_counts": {
+        "water_l3": 39,
+        "water_l2": 30,
+        "water_l1": 41,
+        "water": 140,
+        "order": 275,
+        "cylinder_set": 83,
+        "cylinder_3": 64,
+        "cylinder_2": 74,
+        "cylinder_1": 67,
+        "ball_yellow": 43,
+        "ball_blue": 51,
+        "animal": 195,
+        "name": 223,
+        "danyuan_2": 42,
+        "danyuan_1": 40,
+        "storage": 110,
+        "lable_yellow": 58,
+        "lable_blue": 42,
+        "rape": 119,
+        "broccoli": 126,
+        "potato": 117,
+        "celery": 119,
+        "mushroom": 126,
+        "flammulina velutipes": 118,
+        "tomato": 61,
+        "green bean": 127,
+        "green pepper": 89
+      }
+    },
+    "test": {
+      "images": 1104,
+      "annotations": 2491,
+      "class_counts": {
+        "water_l3": 32,
+        "water_l2": 34,
+        "water_l1": 45,
+        "water": 194,
+        "order": 174,
+        "cylinder_set": 121,
+        "cylinder_3": 64,
+        "cylinder_2": 84,
+        "cylinder_1": 78,
+        "ball_yellow": 34,
+        "ball_blue": 50,
+        "animal": 147,
+        "name": 227,
+        "danyuan_2": 30,
+        "danyuan_1": 45,
+        "storage": 80,
+        "lable_yellow": 60,
+        "lable_blue": 60,
+        "rape": 116,
+        "broccoli": 129,
+        "potato": 113,
+        "celery": 98,
+        "mushroom": 134,
+        "flammulina velutipes": 104,
+        "tomato": 80,
+        "green bean": 104,
+        "green pepper": 54
+      },
+      "note": "test is an independent grouped holdout split."
+    }
+  },
+  "total_class_counts": {
+    "water_l3": 281,
+    "water_l2": 294,
+    "water_l1": 306,
+    "water": 1193,
+    "order": 1602,
+    "cylinder_set": 834,
+    "cylinder_3": 623,
+    "cylinder_2": 585,
+    "cylinder_1": 574,
+    "ball_yellow": 322,
+    "ball_blue": 360,
+    "animal": 1625,
+    "name": 1953,
+    "danyuan_2": 311,
+    "danyuan_1": 314,
+    "storage": 628,
+    "lable_yellow": 468,
+    "lable_blue": 412,
+    "rape": 916,
+    "broccoli": 938,
+    "potato": 915,
+    "celery": 934,
+    "mushroom": 953,
+    "flammulina velutipes": 949,
+    "tomato": 582,
+    "green bean": 938,
+    "green pepper": 590
+  },
+  "weak_classes": [
+    "water_l3",
+    "water_l2",
+    "water_l1",
+    "ball_yellow",
+    "ball_blue",
+    "danyuan_2",
+    "danyuan_1",
+    "lable_yellow",
+    "lable_blue"
+  ],
+  "recommendations": [
+    "Weak classes need train-only extra augmentation: water_l3, water_l2, water_l1, ball_yellow, ball_blue, danyuan_2, danyuan_1, lable_yellow, lable_blue",
+    "For water_l1/water_l2/water_l3, keep stronger exposure/shadow/noise augmentation and inspect labels visually.",
+    "Do not start formal training before augmented COCO static checks pass.",
+    "Export final model as model.pdmodel + model.pdiparams + infer_cfg.yml for smartcar_baidu_21."
+  ]
+}

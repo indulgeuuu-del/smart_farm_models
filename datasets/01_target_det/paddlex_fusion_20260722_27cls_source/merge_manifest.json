@@ -1,0 +1,236 @@
+{
+  "source_dirs": [
+    "MyDataset\\My_Formal_Target_0619",
+    "MyDataset\\Target_name",
+    "MyDataset\\Target_order and danyuan_0608",
+    "MyDataset\\Target_storage0621",
+    "D:\\A CarCarCar\\26th BaiDu\\Online Competition\\数据集合集\\自己采集的\\标注好了的\\Target_shucai0722(1)",
+    "D:\\A CarCarCar\\26th BaiDu\\Online Competition\\数据集合集\\自己采集的\\标注好了的\\Target_shucai0722(2)"
+  ],
+  "output_dir": "datasets\\01_target_det\\paddlex_fusion_20260722_27cls_source",
+  "val_ratio": 0.1,
+  "test_ratio": 0.1,
+  "split_group_size": 10,
+  "seed": 20260722,
+  "class_names": [
+    "water_l3",
+    "water_l2",
+    "water_l1",
+    "water",
+    "order",
+    "cylinder_set",
+    "cylinder_3",
+    "cylinder_2",
+    "cylinder_1",
+    "ball_yellow",
+    "ball_blue",
+    "animal",
+    "name",
+    "danyuan_2",
+    "danyuan_1",
+    "storage",
+    "lable_yellow",
+    "lable_blue",
+    "rape",
+    "broccoli",
+    "potato",
+    "celery",
+    "mushroom",
+    "flammulina velutipes",
+    "tomato",
+    "green bean",
+    "green pepper"
+  ],
+  "sources": [
+    {
+      "source_root": "MyDataset\\My_Formal_Target_0619",
+      "dataset_dir": "MyDataset\\My_Formal_Target_0619\\2741912_1781882115",
+      "annotation_path": "MyDataset\\My_Formal_Target_0619\\2741912_1781882115\\Annotations\\coco_info.json",
+      "images": 4500,
+      "annotations": 7620,
+      "categories": [
+        "animal",
+        "ball_blue",
+        "ball_yellow",
+        "cylinder_1",
+        "cylinder_2",
+        "cylinder_3",
+        "cylinder_set",
+        "order",
+        "water",
+        "water_l1",
+        "water_l2",
+        "water_l3"
+      ],
+      "category_annotations": {
+        "animal": 1625,
+        "ball_blue": 360,
+        "ball_yellow": 322,
+        "cylinder_1": 574,
+        "cylinder_2": 585,
+        "cylinder_3": 623,
+        "cylinder_set": 834,
+        "order": 623,
+        "water": 1193,
+        "water_l1": 306,
+        "water_l2": 294,
+        "water_l3": 281
+      },
+      "example_image_mapping": {
+        "0000.jpg": "s00_my_formal_target_0619_000000.jpg",
+        "0001.jpg": "s00_my_formal_target_0619_000001.jpg",
+        "0002.jpg": "s00_my_formal_target_0619_000002.jpg",
+        "0003.jpg": "s00_my_formal_target_0619_000003.jpg",
+        "0004.jpg": "s00_my_formal_target_0619_000004.jpg"
+      }
+    },
+    {
+      "source_root": "MyDataset\\Target_name",
+      "dataset_dir": "MyDataset\\Target_name\\2736433_1781342396",
+      "annotation_path": "MyDataset\\Target_name\\2736433_1781342396\\Annotations\\coco_info.json",
+      "images": 684,
+      "annotations": 1953,
+      "categories": [
+        "name"
+      ],
+      "category_annotations": {
+        "name": 1953
+      },
+      "example_image_mapping": {
+        "0000.jpg": "s01_target_name_000000.jpg",
+        "0001.jpg": "s01_target_name_000001.jpg",
+        "0002.jpg": "s01_target_name_000002.jpg",
+        "0003.jpg": "s01_target_name_000003.jpg",
+        "0004.jpg": "s01_target_name_000004.jpg"
+      }
+    },
+    {
+      "source_root": "MyDataset\\Target_order and danyuan_0608",
+      "dataset_dir": "MyDataset\\Target_order and danyuan_0608\\2732128_1780914380",
+      "annotation_path": "MyDataset\\Target_order and danyuan_0608\\2732128_1780914380\\Annotations\\coco_info.json",
+      "images": 1335,
+      "annotations": 1604,
+      "categories": [
+        "danyuan_1",
+        "danyuan_2",
+        "order"
+      ],
+      "category_annotations": {
+        "danyuan_1": 314,
+        "danyuan_2": 311,
+        "order": 979
+      },
+      "example_image_mapping": {
+        "0000.jpg": "s02_target_order_and_danyuan_0608_000000.jpg",
+        "0000_1.jpg": "s02_target_order_and_danyuan_0608_000001.jpg",
+        "0001.jpg": "s02_target_order_and_danyuan_0608_000002.jpg",
+        "0001_1.jpg": "s02_target_order_and_danyuan_0608_000003.jpg",
+        "0002.jpg": "s02_target_order_and_danyuan_0608_000004.jpg"
+      }
+    },
+    {
+      "source_root": "MyDataset\\Target_storage0621",
+      "dataset_dir": "MyDataset\\Target_storage0621\\2742707_1782055471",
+      "annotation_path": "MyDataset\\Target_storage0621\\2742707_1782055471\\Annotations\\coco_info.json",
+      "images": 1508,
+      "annotations": 1508,
+      "categories": [
+        "lable_blue",
+        "lable_yellow",
+        "storage"
+      ],
+      "category_annotations": {
+        "lable_blue": 412,
+        "lable_yellow": 468,
+        "storage": 628
+      },
+      "example_image_mapping": {
+        "2023.jpg": "s03_target_storage0621_000000.jpg",
+        "2024.jpg": "s03_target_storage0621_000001.jpg",
+        "2025.jpg": "s03_target_storage0621_000002.jpg",
+        "2026.jpg": "s03_target_storage0621_000003.jpg",
+        "2027.jpg": "s03_target_storage0621_000004.jpg"
+      }
+    },
+    {
+      "source_root": "D:\\A CarCarCar\\26th BaiDu\\Online Competition\\数据集合集\\自己采集的\\标注好了的\\Target_shucai0722(1)",
+      "dataset_dir": "D:\\A CarCarCar\\26th BaiDu\\Online Competition\\数据集合集\\自己采集的\\标注好了的\\Target_shucai0722(1)\\2762349_1784723087",
+      "annotation_path": "D:\\A CarCarCar\\26th BaiDu\\Online Competition\\数据集合集\\自己采集的\\标注好了的\\Target_shucai0722(1)\\2762349_1784723087\\Annotations\\coco_info.json",
+      "images": 2189,
+      "annotations": 2189,
+      "categories": [
+        "broccoli",
+        "celery",
+        "flammulina velutipes",
+        "green bean",
+        "green pepper",
+        "mushroom",
+        "potato",
+        "rape",
+        "tomato"
+      ],
+      "category_annotations": {
+        "broccoli": 240,
+        "celery": 236,
+        "flammulina velutipes": 250,
+        "green bean": 239,
+        "green pepper": 241,
+        "mushroom": 265,
+        "potato": 240,
+        "rape": 240,
+        "tomato": 238
+      },
+      "example_image_mapping": {
+        "0802.jpg": "s04_target_shucai0722_1_000000.jpg",
+        "0803.jpg": "s04_target_shucai0722_1_000001.jpg",
+        "0804.jpg": "s04_target_shucai0722_1_000002.jpg",
+        "0805.jpg": "s04_target_shucai0722_1_000003.jpg",
+        "0806.jpg": "s04_target_shucai0722_1_000004.jpg"
+      }
+    },
+    {
+      "source_root": "D:\\A CarCarCar\\26th BaiDu\\Online Competition\\数据集合集\\自己采集的\\标注好了的\\Target_shucai0722(2)",
+      "dataset_dir": "D:\\A CarCarCar\\26th BaiDu\\Online Competition\\数据集合集\\自己采集的\\标注好了的\\Target_shucai0722(2)\\2762351_1784723534",
+      "annotation_path": "D:\\A CarCarCar\\26th BaiDu\\Online Competition\\数据集合集\\自己采集的\\标注好了的\\Target_shucai0722(2)\\2762351_1784723534\\Annotations\\coco_info.json",
+      "images": 802,
+      "annotations": 5526,
+      "categories": [
+        "broccoli",
+        "celery",
+        "flammulina velutipes",
+        "green bean",
+        "green pepper",
+        "mushroom",
+        "potato",
+        "rape",
+        "tomato"
+      ],
+      "category_annotations": {
+        "broccoli": 698,
+        "celery": 698,
+        "flammulina velutipes": 699,
+        "green bean": 699,
+        "green pepper": 349,
+        "mushroom": 688,
+        "potato": 675,
+        "rape": 676,
+        "tomato": 344
+      },
+      "example_image_mapping": {
+        "0000.jpg": "s05_target_shucai0722_2_000000.jpg",
+        "0001.jpg": "s05_target_shucai0722_2_000001.jpg",
+        "0002.jpg": "s05_target_shucai0722_2_000002.jpg",
+        "0003.jpg": "s05_target_shucai0722_2_000003.jpg",
+        "0004.jpg": "s05_target_shucai0722_2_000004.jpg"
+      }
+    }
+  ],
+  "images": 11018,
+  "annotations": 20400,
+  "train_images": 8812,
+  "val_images": 1102,
+  "test_images": 1104,
+  "train_annotations": 15290,
+  "val_annotations": 2619,
+  "test_annotations": 2491
+}

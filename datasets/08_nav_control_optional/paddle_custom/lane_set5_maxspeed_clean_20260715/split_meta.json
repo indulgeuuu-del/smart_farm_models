@@ -1,0 +1,83 @@
+{
+  "source_dir": "D:\\A CarCarCar\\26th BaiDu\\Online Competition\\数据集合集\\自己采集的\\lane_set(5) 20260715_165026\\20260715_165026",
+  "output_dir": "datasets\\08_nav_control_optional\\paddle_custom\\lane_set5_maxspeed_clean_20260715",
+  "input_records": 18922,
+  "valid_records": 18922,
+  "invalid_records": 0,
+  "strategy": "sessions",
+  "drop_sessions": [
+    1
+  ],
+  "drop_zero_speed": true,
+  "drop_tail_frames": 40,
+  "max_speed": 0.6,
+  "removed_by_reason": {
+    "dropped_session": 8,
+    "zero_speed": 120,
+    "tail_trim": 480
+  },
+  "speed_before": {
+    "min": 0.0,
+    "max": 0.6
+  },
+  "speed_after": {
+    "min": 0.6,
+    "max": 0.6
+  },
+  "train_sessions": [
+    2,
+    3,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    13
+  ],
+  "val_sessions": [
+    4,
+    8,
+    12
+  ],
+  "admission_stats": {
+    "records": 18314,
+    "frame_interval_ms": {
+      "count": 18302,
+      "min": 19.891348,
+      "p50": 32.083,
+      "p90": 36.044907,
+      "p95": 36.085462,
+      "max": 52.087737
+    },
+    "deviation": {
+      "min": -1.0,
+      "max": 1.0,
+      "zero_ratio": 0.37992792399257397,
+      "adjacent_delta": {
+        "count": 18302,
+        "min": 0.0,
+        "p50": 0.004396202913897529,
+        "p90": 0.054337936020038974,
+        "p95": 0.08789328803141594,
+        "max": 0.9133295702910219
+      },
+      "abs_ge_ratio": {
+        "0.3": 0.21606421317025226,
+        "0.5": 0.12842634050453205,
+        "0.8": 0.04051545265916785
+      }
+    },
+    "turn_runs_abs_ge_0.3": {
+      "count": 208,
+      "min": 1.0,
+      "p50": 20.0,
+      "p90": 35.0,
+      "p95": 37.0,
+      "max": 50.0
+    }
+  },
+  "train_records": 13738,
+  "val_records": 4576,
+  "note": "Only valid_for_training=true records are included; source dataset is unchanged."
+}

@@ -1,0 +1,19 @@
+num_classes: 15
+metric: COCO
+map_type: integral
+TrainDataset:
+  image_dir: images
+  anno_path: train.json
+  dataset_dir: /home/aistudio/data/data_det
+  data_fields:
+  - image
+  - gt_bbox
+  - gt_class
+  - is_crowd
+EvalDataset:
+  image_dir: images
+  anno_path: valid.json
+  dataset_dir: /home/aistudio/data/data_det
+TestDataset:
+  anno_path: test.json
+  dataset_dir: /home/aistudio/data/data_det

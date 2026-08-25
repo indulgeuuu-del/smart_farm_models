@@ -1,0 +1,14 @@
+train: images
+val: images
+nc: 10
+names:
+  - water_l3
+  - water_l2
+  - water_l1
+  - water
+  - storage
+  - lable_yellow
+  - lable_blue
+  - ball_yellow
+  - ball_blue
+  - animal

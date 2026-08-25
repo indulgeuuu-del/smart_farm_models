@@ -1,0 +1,31 @@
+train: images
+val: images
+nc: 27
+names:
+  - water_l3
+  - water_l2
+  - water_l1
+  - water
+  - order
+  - cylinder_set
+  - cylinder_3
+  - cylinder_2
+  - cylinder_1
+  - ball_yellow
+  - ball_blue
+  - animal
+  - name
+  - danyuan_2
+  - danyuan_1
+  - storage
+  - lable_yellow
+  - lable_blue
+  - rape
+  - broccoli
+  - potato
+  - celery
+  - mushroom
+  - flammulina velutipes
+  - tomato
+  - green bean
+  - green pepper
