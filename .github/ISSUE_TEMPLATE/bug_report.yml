@@ -1,0 +1,57 @@
+name: 问题报告
+description: 报告可以稳定复现的代码、脚本或文档问题
+title: "[问题] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请先搜索已有 Issue。涉及真实设备时，不要上传令牌、设备地址、串口原始记录或未确认可公开的图片和视频。
+  - type: textarea
+    id: summary
+    attributes:
+      label: 问题现象
+      description: 清楚描述实际发生了什么，以及你原本期望发生什么。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      description: 给出从干净环境开始可以重复执行的命令、输入和顺序。
+      render: powershell
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境信息
+      description: 填写操作系统、Python、Paddle、GPU 驱动和相关上游源码提交号。请删除本机用户名、地址和密钥。
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 日志与验证结果
+      description: 粘贴最小必要日志，并写明运行过的检查命令和返回结果。
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: 影响范围与未验证项
+      description: 说明受影响的主线、输入输出契约，以及哪些部分尚未验证。
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已删除令牌、设备地址、私人路径和未获授权的图片或视频。
+          required: true
+        - label: 我已阅读 README，并确认这不是单纯的实车控制参数或硬件故障咨询。
+          required: true

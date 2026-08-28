@@ -1,0 +1,22 @@
+path: .
+train: images
+val: images
+names:
+  0: water_l3
+  1: water_l2
+  2: water_l1
+  3: water
+  4: order
+  5: cylinder_set
+  6: cylinder_3
+  7: cylinder_2
+  8: cylinder_1
+  9: ball_yellow
+  10: ball_blue
+  11: animal
+  12: name
+  13: danyuan_2
+  14: danyuan_1
+  15: storage
+  16: lable_yellow
+  17: lable_blue

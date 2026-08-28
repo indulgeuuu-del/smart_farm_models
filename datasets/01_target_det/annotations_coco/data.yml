@@ -1,0 +1,20 @@
+num_classes: 15
+metric: COCO
+map_type: integral
+TrainDataset:
+  image_dir: images
+  anno_path: train.json
+  # Metadata template only: original images are not distributed with this repository.
+  dataset_dir: ./datasets/01_target_det/annotations_coco
+  data_fields:
+  - image
+  - gt_bbox
+  - gt_class
+  - is_crowd
+EvalDataset:
+  image_dir: images
+  anno_path: valid.json
+  dataset_dir: ./datasets/01_target_det/annotations_coco
+TestDataset:
+  anno_path: test.json
+  dataset_dir: ./datasets/01_target_det/annotations_coco

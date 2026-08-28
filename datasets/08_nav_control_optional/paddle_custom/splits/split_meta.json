@@ -1,0 +1,11 @@
+{
+  "split_method": "source_directory_train_val",
+  "train_source_name": "image_set_lane",
+  "train_source_path": "datasets\\08_nav_control_optional\\raw\\image_set_lane",
+  "val_source_name": "image_set_lane_eval",
+  "val_source_path": "datasets\\08_nav_control_optional\\raw\\image_set_lane_eval",
+  "total_records": 7555,
+  "train_count": 5301,
+  "val_count": 2254,
+  "test_count": 0
+}

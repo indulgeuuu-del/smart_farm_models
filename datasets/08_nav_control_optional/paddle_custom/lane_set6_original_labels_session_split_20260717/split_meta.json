@@ -1,0 +1,79 @@
+{
+  "source_dir": "external://smart-farm-competition/数据集合集\\自己采集的\\lane_set(6) 20260717_190641\\20260717_190641",
+  "output_dir": "datasets\\08_nav_control_optional\\paddle_custom\\lane_set6_original_labels_session_split_20260717",
+  "input_records": 28444,
+  "valid_records": 28444,
+  "invalid_records": 0,
+  "strategy": "sessions",
+  "drop_sessions": [],
+  "drop_zero_speed": true,
+  "drop_tail_frames": 100,
+  "max_speed": null,
+  "removed_by_reason": {
+    "dropped_session": 0,
+    "zero_speed": 111,
+    "tail_trim": 1000
+  },
+  "speed_before": {
+    "min": 0.0,
+    "max": 0.6
+  },
+  "speed_after": {
+    "min": 0.002516837635789419,
+    "max": 0.6
+  },
+  "train_sessions": [
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    14,
+    16
+  ],
+  "val_sessions": [
+    4,
+    17
+  ],
+  "admission_stats": {
+    "records": 27333,
+    "frame_interval_ms": {
+      "count": 27323,
+      "min": 12.283893,
+      "p50": 16.000415,
+      "p90": 19.989097,
+      "p95": 20.005832,
+      "max": 31.996674
+    },
+    "deviation": {
+      "min": -1.0,
+      "max": 1.0,
+      "zero_ratio": 0.4690301101232942,
+      "adjacent_delta": {
+        "count": 27323,
+        "min": 0.0,
+        "p50": 0.0,
+        "p90": 0.02584980275739243,
+        "p95": 0.05994988686643343,
+        "max": 1.0
+      },
+      "abs_ge_ratio": {
+        "0.3": 0.25496652398199976,
+        "0.5": 0.2140635861412944,
+        "0.8": 0.16207514725789338
+      }
+    },
+    "turn_runs_abs_ge_0.3": {
+      "count": 169,
+      "min": 1.0,
+      "p50": 45.0,
+      "p90": 68.0,
+      "p95": 88.0,
+      "max": 116.0
+    }
+  },
+  "train_records": 21848,
+  "val_records": 5485,
+  "note": "Only valid_for_training=true records are included; source dataset is unchanged."
+}

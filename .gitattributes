@@ -1,0 +1,13 @@
+* text=auto
+
+*.md text eol=lf
+*.py text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.txt text eol=lf
+.gitattributes text eol=lf
+
+*.ps1 text eol=crlf
+
+datasets/01_target_det/capture_plans/nine_vegetable_20260722/*.json -filter -diff -merge text eol=lf
+datasets/01_target_det/capture_plans/nine_vegetable_20260722/*.csv text eol=crlf

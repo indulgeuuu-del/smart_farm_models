@@ -1,0 +1,61 @@
+name: 模型或数据问题
+description: 报告类别、标注、数据划分、训练、导出或离线评估问题
+title: "[模型/数据] "
+labels:
+  - model
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请保留数据来源、类别顺序和验证边界。不要公开没有再发布权限的原始图片或训练记录。
+  - type: dropdown
+    id: area
+    attributes:
+      label: 所属主线
+      options:
+        - 00 车道分割数据工具
+        - 01 目标检测
+        - 08 巡航控制
+        - 公开模型交付
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: dataset
+    attributes:
+      label: 数据与模型信息
+      description: 写明数据集版本或来源标识、类别数量与顺序、模型包名称和 SHA256。不要填写私人绝对路径。
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: symptoms
+    attributes:
+      label: 具体现象
+      description: 说明错误类别、漏检、框偏移、指标变化或输出形状等可观察结果。
+    validations:
+      required: true
+  - type: textarea
+    id: commands
+    attributes:
+      label: 运行命令和结果
+      description: 提供最小复现命令、静态检查或评估结果。
+      render: powershell
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: 验证边界
+      description: 分别说明电脑离线、目标设备和真实车辆中哪些已经验证，哪些没有验证。
+    validations:
+      required: true
+  - type: checkboxes
+    id: license
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我确认附件和数据具有公开权限，或我没有上传它们。
+          required: true
+        - label: 我已删除令牌、设备地址、私人路径和敏感运行日志。
+          required: true

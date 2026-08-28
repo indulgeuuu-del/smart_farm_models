@@ -1,0 +1,49 @@
+{
+  "source_dir": "MyDataset\\My_Formal_Target_0519",
+  "annotation_path": "MyDataset\\My_Formal_Target_0519\\Annotations\\coco_info.json",
+  "seed": 20260519,
+  "val_ratio": 0.2,
+  "source_images_on_disk": 2483,
+  "source_images_in_coco": 2438,
+  "ignored_images_not_in_coco": 45,
+  "train_images": 1950,
+  "val_images": 488,
+  "train_annotations": 3219,
+  "val_annotations": 984,
+  "categories": [
+    "water_l3",
+    "water_l2",
+    "water_l1",
+    "water",
+    "storage",
+    "lable_yellow",
+    "lable_blue",
+    "ball_yellow",
+    "ball_blue",
+    "animal"
+  ],
+  "train_category_annotations": {
+    "water_l3": 122,
+    "water_l2": 140,
+    "water_l1": 120,
+    "water": 476,
+    "storage": 134,
+    "lable_yellow": 179,
+    "lable_blue": 138,
+    "ball_yellow": 390,
+    "ball_blue": 495,
+    "animal": 1025
+  },
+  "val_category_annotations": {
+    "water_l3": 37,
+    "water_l2": 40,
+    "water_l1": 34,
+    "water": 138,
+    "storage": 38,
+    "lable_yellow": 61,
+    "lable_blue": 40,
+    "ball_yellow": 129,
+    "ball_blue": 153,
+    "animal": 314
+  }
+}

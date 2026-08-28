@@ -1,0 +1,29 @@
+path: datasets/01_target_det/paddlex_merged_0519_0520_0521_0601_23cls_85_15
+images: images
+train: annotations/instance_train.json
+val: annotations/instance_val.json
+test: annotations/instance_test.json
+names:
+  0: water_l3
+  1: water_l2
+  2: water_l1
+  3: water
+  4: storage
+  5: lable_yellow
+  6: lable_blue
+  7: ball_yellow
+  8: ball_blue
+  9: animal
+  10: cylinder_set
+  11: cylinder_3
+  12: cylinder_2
+  13: cylinder_1
+  14: rape
+  15: broccoli
+  16: potato
+  17: h_qing_jiao
+  18: celery
+  19: mushroom
+  20: flammulina velutipes
+  21: tomato
+  22: green bean

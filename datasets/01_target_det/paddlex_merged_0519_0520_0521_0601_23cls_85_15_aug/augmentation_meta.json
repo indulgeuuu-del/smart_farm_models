@@ -1,0 +1,42 @@
+{
+  "source_dir": "datasets\\01_target_det\\paddlex_merged_0519_0520_0521_0601_23cls_85_15",
+  "policy": "target_det_train_only_offline_augmentation",
+  "augmentations": [
+    "flip",
+    "exposure",
+    "blur",
+    "noise",
+    "shadow"
+  ],
+  "variants_per_image": 1,
+  "hard_case_labels": [
+    "rape",
+    "broccoli",
+    "potato",
+    "h_qing_jiao",
+    "celery",
+    "mushroom",
+    "flammulina velutipes",
+    "tomato",
+    "green bean",
+    "water_l1",
+    "water_l2",
+    "water_l3",
+    "water",
+    "cylinder_set",
+    "cylinder_1",
+    "cylinder_2",
+    "cylinder_3",
+    "ball_blue",
+    "ball_yellow"
+  ],
+  "hard_case_extra": 1,
+  "seed": 20260602,
+  "original_train_images": 10734,
+  "augmented_train_images": 17819,
+  "train_images": 28553,
+  "train_annotations": 54377,
+  "val_images": 1900,
+  "test_images": 1900,
+  "note": "Only train split is augmented; val/test are copied unchanged."
+}
