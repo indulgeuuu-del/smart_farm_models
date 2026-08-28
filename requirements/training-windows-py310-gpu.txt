@@ -4,5 +4,5 @@
 paddlepaddle-gpu==3.2.2
 paddlex==3.4.3
 labelme==6.0.0
-pycocotools==2.0.8
+pycocotools==2.0.11
 visualdl==2.5.3
