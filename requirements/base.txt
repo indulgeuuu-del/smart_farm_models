@@ -1,6 +1,6 @@
 # Shared runtime dependencies for data checks and repository utilities.
 # Paddle itself is selected by the environment profile because GPU wheels are platform-specific.
-numpy==1.26.4
+numpy==2.5.2
 Pillow==12.1.0
 PyYAML==6.0.2
 opencv-python==4.5.5.64
