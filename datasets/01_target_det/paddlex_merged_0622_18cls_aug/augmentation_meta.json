@@ -1,0 +1,40 @@
+{
+  "source_dir": "datasets\\01_target_det\\paddlex_merged_0622_18cls",
+  "policy": "target_det_train_only_offline_augmentation",
+  "augmentations": [
+    "flip",
+    "exposure",
+    "blur",
+    "noise",
+    "shadow",
+    "object_rotate180"
+  ],
+  "variants_per_image": 1,
+  "hard_case_labels": [
+    "water_l1",
+    "water_l2",
+    "water_l3",
+    "danyuan_1",
+    "danyuan_2",
+    "ball_yellow",
+    "ball_blue",
+    "lable_yellow",
+    "lable_blue",
+    "cylinder_1",
+    "cylinder_2",
+    "cylinder_3",
+    "cylinder_set",
+    "storage",
+    "order",
+    "name"
+  ],
+  "hard_case_extra": 2,
+  "seed": 20260622,
+  "original_train_images": 6690,
+  "augmented_train_images": 17792,
+  "train_images": 24482,
+  "train_annotations": 35648,
+  "val_images": 1337,
+  "test_images": 1337,
+  "note": "Only train split is augmented; val/test are copied unchanged."
+}

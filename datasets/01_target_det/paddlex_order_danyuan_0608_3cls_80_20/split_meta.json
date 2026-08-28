@@ -1,0 +1,28 @@
+{
+  "source_dir": "MyDataset\\Target_order and danyuan_0608\\2732128_1780914380",
+  "annotation_path": "MyDataset\\Target_order and danyuan_0608\\2732128_1780914380\\Annotations\\coco_info.json",
+  "seed": 20260608,
+  "val_ratio": 0.2,
+  "source_images_on_disk": 1339,
+  "source_images_in_coco": 1335,
+  "ignored_images_not_in_coco": 4,
+  "train_images": 1068,
+  "val_images": 267,
+  "train_annotations": 1236,
+  "val_annotations": 368,
+  "categories": [
+    "order",
+    "danyuan_2",
+    "danyuan_1"
+  ],
+  "train_category_annotations": {
+    "order": 751,
+    "danyuan_2": 243,
+    "danyuan_1": 242
+  },
+  "val_category_annotations": {
+    "order": 228,
+    "danyuan_2": 68,
+    "danyuan_1": 72
+  }
+}

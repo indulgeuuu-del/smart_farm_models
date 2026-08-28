@@ -1,0 +1,48 @@
+preset: balanced_v2
+framework: PaddlePaddle
+model: PaddleLaneCnnModel
+input_size: [128, 128]
+epochs: 100
+batch_size: 128
+eval_batch_size: 256
+optimizer: adamw
+weight_decay: 0.0001
+learning_rate: 0.0005
+lr_scheduler: cosine_warmup
+lr_t_max: 100
+warmup_epochs: 3
+warmup_start_lr: 0.00005
+lr_eta_min: 0.00001
+eval_interval: 2
+early_stop_min_epochs: 30
+early_stop_patience_evals: 10
+early_stop_min_delta: 0.0001
+label_loss_weight_mode: none
+deviation_loss_weight_mode: moderate_abs_bins
+sample_weight_mode: none
+augmentation_profile: robust_v2
+seed: 20260418
+device: gpu:0
+
+validation_split:
+  unit: complete_session
+  recommended_sessions: 2
+  recommended_samples_min: 4000
+  recommended_samples_max: 8000
+  hard_sample_limit: 10000
+test_split:
+  unit: complete_session
+  recommended_sessions: 1
+  position: immediately_before_validation
+
+selection:
+  primary_checkpoint: balanced_best
+  metric: balanced_core
+  formula: global_mae + corner_score
+  evaluation_snapshots: true
+
+output_contract:
+  output_0: deviation
+  output_1: compatibility_zero
+  shape: [batch, 2]
+  automatic_label_shift: false

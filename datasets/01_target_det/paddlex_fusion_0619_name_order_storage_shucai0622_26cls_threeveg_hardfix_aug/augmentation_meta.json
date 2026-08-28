@@ -1,0 +1,34 @@
+{
+  "source_dir": "datasets\\01_target_det\\paddlex_fusion_0619_name_order_storage_shucai0622_26cls_aug",
+  "policy": "target_det_train_only_offline_augmentation",
+  "augmentations": [
+    "flip",
+    "vflip",
+    "affine",
+    "perspective",
+    "exposure",
+    "blur",
+    "noise",
+    "shadow",
+    "object_flip",
+    "object_vflip",
+    "object_rotate90",
+    "object_rotate180",
+    "object_rotate270"
+  ],
+  "variants_per_image": 0,
+  "hard_case_labels": [
+    "mushroom",
+    "potato",
+    "tomato"
+  ],
+  "hard_case_extra": 8,
+  "seed": 20260627,
+  "original_train_images": 27774,
+  "augmented_train_images": 49632,
+  "train_images": 77406,
+  "train_annotations": 406053,
+  "val_images": 2009,
+  "test_images": 2009,
+  "note": "Only train split is augmented; val/test are copied unchanged."
+}

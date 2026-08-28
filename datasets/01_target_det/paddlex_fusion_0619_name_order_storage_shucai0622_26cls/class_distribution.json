@@ -1,0 +1,295 @@
+{
+  "dataset_dir": "datasets\\01_target_det\\paddlex_fusion_0619_name_order_storage_shucai0622_26cls",
+  "weak_threshold": 500,
+  "sources": [
+    {
+      "source_root": "MyDataset\\My_Formal_Target_0619",
+      "dataset_dir": "MyDataset\\My_Formal_Target_0619\\2741912_1781882115",
+      "annotation_path": "MyDataset\\My_Formal_Target_0619\\2741912_1781882115\\Annotations\\coco_info.json",
+      "images": 4500,
+      "annotations": 7620,
+      "categories": [
+        "animal",
+        "ball_blue",
+        "ball_yellow",
+        "cylinder_1",
+        "cylinder_2",
+        "cylinder_3",
+        "cylinder_set",
+        "order",
+        "water",
+        "water_l1",
+        "water_l2",
+        "water_l3"
+      ],
+      "category_annotations": {
+        "animal": 1625,
+        "ball_blue": 360,
+        "ball_yellow": 322,
+        "cylinder_1": 574,
+        "cylinder_2": 585,
+        "cylinder_3": 623,
+        "cylinder_set": 834,
+        "order": 623,
+        "water": 1193,
+        "water_l1": 306,
+        "water_l2": 294,
+        "water_l3": 281
+      },
+      "example_image_mapping": {
+        "2559.jpg": "s00_my_formal_target_0619_000000.jpg",
+        "2341.jpg": "s00_my_formal_target_0619_000001.jpg",
+        "1004.jpg": "s00_my_formal_target_0619_000002.jpg",
+        "1378.jpg": "s00_my_formal_target_0619_000003.jpg",
+        "2640.jpg": "s00_my_formal_target_0619_000004.jpg"
+      }
+    },
+    {
+      "source_root": "MyDataset\\Target_name",
+      "dataset_dir": "MyDataset\\Target_name\\2736433_1781342396",
+      "annotation_path": "MyDataset\\Target_name\\2736433_1781342396\\Annotations\\coco_info.json",
+      "images": 684,
+      "annotations": 1953,
+      "categories": [
+        "name"
+      ],
+      "category_annotations": {
+        "name": 1953
+      },
+      "example_image_mapping": {
+        "0126.jpg": "s01_target_name_000000.jpg",
+        "0008.jpg": "s01_target_name_000001.jpg",
+        "0020.jpg": "s01_target_name_000002.jpg",
+        "0468.jpg": "s01_target_name_000003.jpg",
+        "0425.jpg": "s01_target_name_000004.jpg"
+      }
+    },
+    {
+      "source_root": "MyDataset\\Target_order and danyuan_0608",
+      "dataset_dir": "MyDataset\\Target_order and danyuan_0608\\2732128_1780914380",
+      "annotation_path": "MyDataset\\Target_order and danyuan_0608\\2732128_1780914380\\Annotations\\coco_info.json",
+      "images": 1335,
+      "annotations": 1604,
+      "categories": [
+        "danyuan_1",
+        "danyuan_2",
+        "order"
+      ],
+      "category_annotations": {
+        "danyuan_1": 314,
+        "danyuan_2": 311,
+        "order": 979
+      },
+      "example_image_mapping": {
+        "0348.jpg": "s02_target_order_and_danyuan_0608_000000.jpg",
+        "0478.jpg": "s02_target_order_and_danyuan_0608_000001.jpg",
+        "0577_1.jpg": "s02_target_order_and_danyuan_0608_000002.jpg",
+        "0201_1.jpg": "s02_target_order_and_danyuan_0608_000003.jpg",
+        "0637.jpg": "s02_target_order_and_danyuan_0608_000004.jpg"
+      }
+    },
+    {
+      "source_root": "MyDataset\\Target_storage0621",
+      "dataset_dir": "MyDataset\\Target_storage0621\\2742707_1782055471",
+      "annotation_path": "MyDataset\\Target_storage0621\\2742707_1782055471\\Annotations\\coco_info.json",
+      "images": 1508,
+      "annotations": 1508,
+      "categories": [
+        "lable_blue",
+        "lable_yellow",
+        "storage"
+      ],
+      "category_annotations": {
+        "lable_blue": 412,
+        "lable_yellow": 468,
+        "storage": 628
+      },
+      "example_image_mapping": {
+        "3179.jpg": "s03_target_storage0621_000000.jpg",
+        "2973.jpg": "s03_target_storage0621_000001.jpg",
+        "3035.jpg": "s03_target_storage0621_000002.jpg",
+        "3530.jpg": "s03_target_storage0621_000003.jpg",
+        "2939.jpg": "s03_target_storage0621_000004.jpg"
+      }
+    },
+    {
+      "source_root": "MyDataset\\Target_shucai0622",
+      "dataset_dir": "MyDataset\\Target_shucai0622\\2743997_1782142138",
+      "annotation_path": "MyDataset\\Target_shucai0622\\2743997_1782142138\\Annotations\\coco_info.json",
+      "images": 2016,
+      "annotations": 13953,
+      "categories": [
+        "green bean",
+        "tomato",
+        "flammulina velutipes",
+        "mushroom",
+        "celery",
+        "potato",
+        "broccoli",
+        "rape"
+      ],
+      "category_annotations": {
+        "green bean": 1458,
+        "tomato": 1485,
+        "flammulina velutipes": 2013,
+        "mushroom": 2016,
+        "celery": 1545,
+        "potato": 1440,
+        "broccoli": 1980,
+        "rape": 2016
+      },
+      "example_image_mapping": {
+        "1327.jpg": "s04_target_shucai0622_000000.jpg",
+        "1979.jpg": "s04_target_shucai0622_000001.jpg",
+        "0716.jpg": "s04_target_shucai0622_000002.jpg",
+        "1292.jpg": "s04_target_shucai0622_000003.jpg",
+        "0591.jpg": "s04_target_shucai0622_000004.jpg"
+      }
+    }
+  ],
+  "splits": {
+    "train": {
+      "images": 8034,
+      "annotations": 20172,
+      "class_counts": {
+        "water_l3": 214,
+        "water_l2": 222,
+        "water_l1": 237,
+        "water": 915,
+        "order": 1233,
+        "cylinder_set": 643,
+        "cylinder_3": 469,
+        "cylinder_2": 448,
+        "cylinder_1": 429,
+        "ball_yellow": 249,
+        "ball_blue": 283,
+        "animal": 1275,
+        "name": 1505,
+        "danyuan_2": 242,
+        "danyuan_1": 240,
+        "storage": 489,
+        "lable_yellow": 362,
+        "lable_blue": 318,
+        "rape": 1551,
+        "broccoli": 1515,
+        "potato": 1020,
+        "celery": 1117,
+        "mushroom": 1551,
+        "flammulina velutipes": 1546,
+        "tomato": 1062,
+        "green bean": 1037
+      }
+    },
+    "val": {
+      "images": 2009,
+      "annotations": 6466,
+      "class_counts": {
+        "water_l3": 67,
+        "water_l2": 72,
+        "water_l1": 69,
+        "water": 278,
+        "order": 369,
+        "cylinder_set": 191,
+        "cylinder_3": 154,
+        "cylinder_2": 137,
+        "cylinder_1": 145,
+        "ball_yellow": 73,
+        "ball_blue": 77,
+        "animal": 350,
+        "name": 448,
+        "danyuan_2": 69,
+        "danyuan_1": 74,
+        "storage": 139,
+        "lable_yellow": 106,
+        "lable_blue": 94,
+        "rape": 465,
+        "broccoli": 465,
+        "potato": 420,
+        "celery": 428,
+        "mushroom": 465,
+        "flammulina velutipes": 467,
+        "tomato": 423,
+        "green bean": 421
+      }
+    },
+    "test": {
+      "images": 2009,
+      "annotations": 6466,
+      "class_counts": {
+        "water_l3": 67,
+        "water_l2": 72,
+        "water_l1": 69,
+        "water": 278,
+        "order": 369,
+        "cylinder_set": 191,
+        "cylinder_3": 154,
+        "cylinder_2": 137,
+        "cylinder_1": 145,
+        "ball_yellow": 73,
+        "ball_blue": 77,
+        "animal": 350,
+        "name": 448,
+        "danyuan_2": 69,
+        "danyuan_1": 74,
+        "storage": 139,
+        "lable_yellow": 106,
+        "lable_blue": 94,
+        "rape": 465,
+        "broccoli": 465,
+        "potato": 420,
+        "celery": 428,
+        "mushroom": 465,
+        "flammulina velutipes": 467,
+        "tomato": 423,
+        "green bean": 421
+      },
+      "note": "test split is copied from val for PaddleDetection export/eval compatibility."
+    }
+  },
+  "total_class_counts": {
+    "water_l3": 281,
+    "water_l2": 294,
+    "water_l1": 306,
+    "water": 1193,
+    "order": 1602,
+    "cylinder_set": 834,
+    "cylinder_3": 623,
+    "cylinder_2": 585,
+    "cylinder_1": 574,
+    "ball_yellow": 322,
+    "ball_blue": 360,
+    "animal": 1625,
+    "name": 1953,
+    "danyuan_2": 311,
+    "danyuan_1": 314,
+    "storage": 628,
+    "lable_yellow": 468,
+    "lable_blue": 412,
+    "rape": 2016,
+    "broccoli": 1980,
+    "potato": 1440,
+    "celery": 1545,
+    "mushroom": 2016,
+    "flammulina velutipes": 2013,
+    "tomato": 1485,
+    "green bean": 1458
+  },
+  "weak_classes": [
+    "water_l3",
+    "water_l2",
+    "water_l1",
+    "ball_yellow",
+    "ball_blue",
+    "danyuan_2",
+    "danyuan_1",
+    "lable_yellow",
+    "lable_blue"
+  ],
+  "recommendations": [
+    "Weak classes need train-only extra augmentation: water_l3, water_l2, water_l1, ball_yellow, ball_blue, danyuan_2, danyuan_1, lable_yellow, lable_blue",
+    "For h_* vegetable classes, keep flip/vflip/rotate180/object-level direction augmentations.",
+    "For water_l1/water_l2/water_l3, keep stronger exposure/shadow/noise augmentation and inspect labels visually.",
+    "Do not start formal training before augmented COCO static checks pass.",
+    "Export final model as model.pdmodel + model.pdiparams + infer_cfg.yml for smartcar_baidu_21."
+  ]
+}

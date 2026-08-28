@@ -1,0 +1,43 @@
+{
+  "source_dir": "MyDataset\\Target_shucai0622\\2743997_1782142138",
+  "annotation_path": "MyDataset\\Target_shucai0622\\2743997_1782142138\\Annotations\\coco_info.json",
+  "seed": 20260624,
+  "val_ratio": 0.2,
+  "source_images_on_disk": 2016,
+  "source_images_in_coco": 2016,
+  "ignored_images_not_in_coco": 0,
+  "train_images": 1613,
+  "val_images": 403,
+  "train_annotations": 10858,
+  "val_annotations": 3095,
+  "categories": [
+    "rape",
+    "broccoli",
+    "potato",
+    "celery",
+    "mushroom",
+    "flammulina velutipes",
+    "tomato",
+    "green bean"
+  ],
+  "train_category_annotations": {
+    "rape": 1613,
+    "broccoli": 1577,
+    "potato": 1075,
+    "celery": 1169,
+    "mushroom": 1613,
+    "flammulina velutipes": 1608,
+    "tomato": 1113,
+    "green bean": 1090
+  },
+  "val_category_annotations": {
+    "rape": 403,
+    "broccoli": 403,
+    "potato": 365,
+    "celery": 376,
+    "mushroom": 403,
+    "flammulina velutipes": 405,
+    "tomato": 372,
+    "green bean": 368
+  }
+}

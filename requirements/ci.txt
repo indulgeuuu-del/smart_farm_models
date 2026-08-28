@@ -1,0 +1,3 @@
+# Linux CPU profile used by GitHub Actions. It exercises repository code, not GPU performance.
+-r base.txt
+paddlepaddle==3.2.2

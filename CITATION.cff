@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "如果本仓库对你的工作有帮助，请按下面信息引用。"
+title: "smart_farm_models"
+type: software
+license: MIT
+repository-code: "https://github.com/indulgeuuu-del/smart_farm_models"
+version: "2026.08-public"
+date-released: "2026-08-25"
+authors:
+  - family-names: "indulgeuuu-del"
