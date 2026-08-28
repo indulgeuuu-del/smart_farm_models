@@ -766,7 +766,9 @@ Dataset_all/
   --sample-limit 12
 ~~~
 
-注意：`analyze_target_det_dataset.py` 当前内部固定的是一份旧的 15 类类别表。它只适用于与该表完全一致的旧数据集；对当前 26/27 类数据不要把它的失败当成标注失败，也不要把它的统计当成 27 类完整统计。27 类数据应直接读取对应 COCO JSON 和 `class_names.txt`，或使用与当前类别表匹配的外部分析工具。
+`analyze_target_det_dataset.py` 不预设类别数量，也不把历史类别表当成当前数据的真值。它会分别读取每个 COCO JSON 的 `categories` 列表，并把列表顺序作为类别顺序；因此 15 类、26 类、27 类或其他合法类别数量都可以使用同一条命令。`train`、`val`、`test` 三个 split 的类别 ID、类别名称和顺序必须完全一致，否则脚本会直接报错。脚本还会拒绝空类别表、重复类别 ID、重复类别名、空类别名，以及 annotation 引用不存在的 `category_id`。
+
+报告中的 `class_names`、`num_classes`、`class_counts` 和 `class_size_counts` 都来自当前 COCO 文件，不会自动补入没有出现在数据集里的历史类别。类别表仍然必须先通过 COCO 静态检查；该分析脚本负责统计和抽样，不替代图片逐张人工复核。
 
 ### 只作用于 train 的离线增强
 
@@ -820,7 +822,7 @@ object_flip object_vflip object_rotate90 object_rotate180 object_rotate270
 
 | 脚本 | 用途 | 关键输出 |
 | --- | --- | --- |
-| `analyze_target_det_dataset.py` | 旧类别表下的类别和框尺寸报告 | JSON、Markdown、弱类样本 |
+| `analyze_target_det_dataset.py` | 按 COCO 类别契约生成类别和框尺寸报告 | JSON、Markdown、弱类样本 |
 | `visualize_target_det_annotations.py` | 框可视化和疑似标注问题索引 | HTML、CSV、画框图片 |
 | `evaluate_target_det_hardcases.py` | 对指定模型和 hard-case 图像做压力评估 | JSON/Markdown 评估报告 |
 | `summarize_target_det_hardcases.py` | 汇总 hard-case 评估结果 | 汇总 JSON/Markdown |
