@@ -1,7 +1,7 @@
 # Reference Windows Python 3.10 GPU training profile.
 # Install a CUDA-compatible paddlepaddle-gpu wheel from PaddlePaddle first when PyPI cannot provide one.
 -r base.txt
-paddlepaddle-gpu==3.2.2
+paddlepaddle-gpu==2.6.2
 paddlex==3.4.3
 labelme==6.0.0
 pycocotools==2.0.8
