@@ -1,2 +1,2 @@
 # PaddleLite conversion profile. Keep it isolated from training and export environments.
-paddlelite==2.13rc0
+paddlelite==2.14rc0
