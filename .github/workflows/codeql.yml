@@ -1,0 +1,29 @@
+name: codeql
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  analyze-python:
+    name: Analyze Python
+    runs-on: ubuntu-22.04
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      security-events: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: github/codeql-action/init@5ba2889ada762081db2c4f32a729827dce632c7b
+        with:
+          languages: python
+          build-mode: none
+      - uses: github/codeql-action/analyze@5ba2889ada762081db2c4f32a729827dce632c7b

@@ -1,0 +1,10 @@
+{
+  "seed": 20260521,
+  "split": "random_4_to_1_train_val_test_equals_val",
+  "train_images": 2664,
+  "val_images": 666,
+  "test_images": 666,
+  "train_annotations": 4913,
+  "val_annotations": 1223,
+  "test_annotations": 1223
+}

@@ -1,0 +1,12 @@
+train: images
+val: images
+nc: 8
+names:
+  - rape
+  - broccoli
+  - potato
+  - celery
+  - mushroom
+  - flammulina velutipes
+  - tomato
+  - green bean

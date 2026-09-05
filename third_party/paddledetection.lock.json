@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "name": "PaddleDetection",
+  "upstream": "https://github.com/PaddlePaddle/PaddleDetection.git",
+  "ref": "v2.8.1",
+  "commit": "59d5f5ebebc2a380f5f07dd413a056b75af01f2a",
+  "destination": "third_party/PaddleDetection",
+  "purpose": "PP-YOLOE+ target detection training, export, and deploy/python inference adapter",
+  "installation": "Run env/install_paddledetection.ps1. The checkout is intentionally ignored because it is third-party source."
+}

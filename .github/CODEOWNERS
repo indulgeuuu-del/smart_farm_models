@@ -1,0 +1,7 @@
+# 默认维护者。涉及模型、数据契约、导出物和工作流的修改都需要复核。
+/.github/ @indulgeuuu-del
+/configs/ @indulgeuuu-del
+/datasets/ @indulgeuuu-del
+/deploy/ @indulgeuuu-del
+/scripts/ @indulgeuuu-del
+* @indulgeuuu-del

@@ -1,0 +1,9 @@
+path: .
+train: images
+val: images
+test: images
+names:
+  0: order
+  1: danyuan_2
+  2: danyuan_1
+  3: name

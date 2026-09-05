@@ -1,0 +1,26 @@
+{
+  "source_dir": "datasets\\01_target_det\\paddlex_order_danyuan_0608_3cls_80_20",
+  "policy": "target_det_train_only_offline_augmentation",
+  "augmentations": [
+    "flip",
+    "exposure",
+    "blur",
+    "noise",
+    "shadow"
+  ],
+  "variants_per_image": 1,
+  "hard_case_labels": [
+    "order",
+    "danyuan_2",
+    "danyuan_1"
+  ],
+  "hard_case_extra": 0,
+  "seed": 20260608,
+  "original_train_images": 1068,
+  "augmented_train_images": 1068,
+  "train_images": 2136,
+  "train_annotations": 2472,
+  "val_images": 267,
+  "test_images": 267,
+  "note": "Only train split is augmented; val/test are copied unchanged."
+}

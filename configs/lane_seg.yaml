@@ -1,0 +1,32 @@
+# Placeholder config for 00_lane_seg after the route change.
+# 00_lane_seg is deferred for now. If revived, lane recognition must be
+# deep-learning based because official rules forbid OpenCV/traditional image
+# processing for lane recognition.
+
+task: lane_aware_cruise
+reference: bd_car2024
+status: deferred_deep_learning_lane_recognition_only
+
+route:
+  input: front_camera_image
+  lane_input_stage:
+    required_step: lightweight_paddleseg_paddlex_or_paddlepaddle_lane_model
+    forbidden_step: opencv_or_traditional_threshold_lane_recognition
+  cruise_model: lightweight_cnn
+  output_contract: confirm_with_upper_computer_teammate_before_formal_training
+
+dataset_dir: ./datasets/00_lane_seg
+output_dir: ./outputs/00_lane_seg
+
+constraints:
+  - This repository trains and exports the model only.
+  - PID, wheel control, serial communication, task state machine, and closed-loop control belong to the upper-computer repository.
+  - 08_nav_control_optional is the current cruise priority route.
+  - OpenCV/traditional threshold, edge, contour, or morphology based lane recognition is forbidden for formal lane recognition.
+  - Do not claim this route is trained until lane-input generation, training, export, and offline checks are completed.
+
+next_steps:
+  - Keep this route deferred until deep-learning lane labels and training are ready.
+  - Add deep-learning lane-input generation and visualization checks if the route is revived.
+  - Confirm whether the formal output is compatible deviation or error_y/error_angle.
+  - Train a lane-aware cruise CNN and compare it with the current 08_nav_control_optional best model.

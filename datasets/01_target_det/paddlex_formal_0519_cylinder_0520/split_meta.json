@@ -1,0 +1,52 @@
+{
+  "source_dir": "MyDataset\\My_Formal_Target_0519_Target_cylinder_0520_merged",
+  "annotation_path": "MyDataset\\My_Formal_Target_0519_Target_cylinder_0520_merged\\Annotations\\coco_info.json",
+  "seed": 20260520,
+  "val_ratio": 0.2,
+  "source_images_on_disk": 2770,
+  "source_images_in_coco": 2770,
+  "ignored_images_not_in_coco": 0,
+  "train_images": 2216,
+  "val_images": 554,
+  "train_annotations": 3759,
+  "val_annotations": 1163,
+  "categories": [
+    "water_l3",
+    "water_l2",
+    "water_l1",
+    "water",
+    "storage",
+    "lable_yellow",
+    "lable_blue",
+    "ball_yellow",
+    "ball_blue",
+    "animal",
+    "cylinder_set"
+  ],
+  "train_category_annotations": {
+    "water_l3": 120,
+    "water_l2": 137,
+    "water_l1": 120,
+    "water": 471,
+    "storage": 131,
+    "lable_yellow": 188,
+    "lable_blue": 138,
+    "ball_yellow": 391,
+    "ball_blue": 493,
+    "animal": 1023,
+    "cylinder_set": 547
+  },
+  "val_category_annotations": {
+    "water_l3": 39,
+    "water_l2": 43,
+    "water_l1": 34,
+    "water": 143,
+    "storage": 41,
+    "lable_yellow": 52,
+    "lable_blue": 40,
+    "ball_yellow": 128,
+    "ball_blue": 155,
+    "animal": 316,
+    "cylinder_set": 172
+  }
+}

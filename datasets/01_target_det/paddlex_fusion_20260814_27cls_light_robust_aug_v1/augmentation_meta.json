@@ -1,0 +1,48 @@
+{
+  "source_dir": "datasets\\01_target_det\\paddlex_fusion_20260814_27cls_source_balanced_g50",
+  "policy": "target_det_train_only_offline_augmentation",
+  "augmentations": [
+    "underexposure",
+    "overexposure",
+    "mixed_lighting"
+  ],
+  "variants_per_image": 3,
+  "hard_case_labels": [
+    "danyuan_2",
+    "green pepper",
+    "lable_yellow",
+    "water_l2",
+    "lable_blue",
+    "water_l3",
+    "tomato",
+    "danyuan_1",
+    "storage",
+    "water_l1",
+    "cylinder_3",
+    "cylinder_1",
+    "cylinder_2",
+    "cylinder_set",
+    "ball_blue",
+    "ball_yellow"
+  ],
+  "hard_case_extra": 1,
+  "focus_labels": [],
+  "focus_extra": 0,
+  "focus_augmentations": [],
+  "zoomout_labels": [
+    "name"
+  ],
+  "zoomout_extra": 1,
+  "zoomout_scale_range": [
+    0.55,
+    0.8
+  ],
+  "seed": 20260814,
+  "original_train_images": 10989,
+  "augmented_train_images": 40175,
+  "train_images": 51164,
+  "train_annotations": 108939,
+  "val_images": 1400,
+  "test_images": 1385,
+  "note": "Only train split is augmented; val/test are copied unchanged."
+}

@@ -1,0 +1,546 @@
+{
+  "source_dir": "MyDataset\\My_Formal_Target_0519_Target_cylinder_0520_Target_cylinder_three_0521_Target_0601_cleaned_merged",
+  "output_dir": "datasets\\01_target_det\\paddlex_merged_0519_0520_0521_0601_23cls_85_15",
+  "val_ratio": 0.15,
+  "chunk_size": 25,
+  "split_policy": "source-aware contiguous chunk split; selected whole chunks greedily for category coverage",
+  "images": 12634,
+  "annotations": 23475,
+  "categories": [
+    "water_l3",
+    "water_l2",
+    "water_l1",
+    "water",
+    "storage",
+    "lable_yellow",
+    "lable_blue",
+    "ball_yellow",
+    "ball_blue",
+    "animal",
+    "cylinder_set",
+    "cylinder_3",
+    "cylinder_2",
+    "cylinder_1",
+    "rape",
+    "broccoli",
+    "potato",
+    "h_qing_jiao",
+    "celery",
+    "mushroom",
+    "flammulina velutipes",
+    "tomato",
+    "green bean"
+  ],
+  "train_images": 10734,
+  "val_images": 1900,
+  "train_annotations": 19627,
+  "val_annotations": 3848,
+  "selected_val_chunks": [
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 1475,
+      "end": 1499,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 1425,
+      "end": 1449,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 1250,
+      "end": 1274,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 1800,
+      "end": 1824,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 1825,
+      "end": 1849,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 1850,
+      "end": 1874,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 1600,
+      "end": 1624,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 1900,
+      "end": 1924,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 1200,
+      "end": 1224,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 2500,
+      "end": 2524,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 1725,
+      "end": 1749,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 2550,
+      "end": 2574,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 5080,
+      "end": 5104,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 5130,
+      "end": 5154,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 5205,
+      "end": 5229,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 2450,
+      "end": 2474,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 2525,
+      "end": 2549,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 3830,
+      "end": 3854,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 4155,
+      "end": 4179,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 3050,
+      "end": 3074,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 3100,
+      "end": 3124,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 2800,
+      "end": 2824,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 3150,
+      "end": 3174,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 3300,
+      "end": 3324,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 4680,
+      "end": 4704,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 2825,
+      "end": 2849,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 3380,
+      "end": 3404,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 8780,
+      "end": 8804,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 10080,
+      "end": 10104,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 5155,
+      "end": 5179,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 11280,
+      "end": 11304,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 5505,
+      "end": 5529,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 5705,
+      "end": 5729,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 2275,
+      "end": 2299,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 2300,
+      "end": 2324,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 2375,
+      "end": 2399,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 3655,
+      "end": 3679,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 2325,
+      "end": 2349,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 4655,
+      "end": 4679,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 7380,
+      "end": 7404,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 9180,
+      "end": 9204,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 6655,
+      "end": 6679,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 6905,
+      "end": 6929,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 10655,
+      "end": 10679,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 6155,
+      "end": 6179,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 8855,
+      "end": 8879,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 11155,
+      "end": 11179,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 11455,
+      "end": 11479,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 4380,
+      "end": 4404,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 5630,
+      "end": 5654,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 8405,
+      "end": 8429,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 3755,
+      "end": 3779,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 9430,
+      "end": 9454,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 5305,
+      "end": 5329,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 3930,
+      "end": 3954,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 750,
+      "end": 774,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 675,
+      "end": 699,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 575,
+      "end": 599,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 12430,
+      "end": 12454,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 0,
+      "end": 24,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 150,
+      "end": 174,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 175,
+      "end": 199,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 350,
+      "end": 374,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 375,
+      "end": 399,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 500,
+      "end": 524,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 525,
+      "end": 549,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 650,
+      "end": 674,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 700,
+      "end": 724,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 900,
+      "end": 924,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 925,
+      "end": 949,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 950,
+      "end": 974,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 9080,
+      "end": 9104,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 11230,
+      "end": 11254,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 3780,
+      "end": 3804,
+      "images": 25
+    },
+    {
+      "source": "formal0519_cylinder0520_cylinder_three0521_merged",
+      "start": 25,
+      "end": 49,
+      "images": 25
+    },
+    {
+      "source": "target0601_cleaned",
+      "start": 3480,
+      "end": 3504,
+      "images": 25
+    }
+  ],
+  "train_category_annotations": {
+    "water_l3": 391,
+    "water_l2": 452,
+    "water_l1": 504,
+    "water": 2326,
+    "storage": 993,
+    "lable_yellow": 926,
+    "lable_blue": 836,
+    "ball_yellow": 1219,
+    "ball_blue": 1291,
+    "animal": 1753,
+    "cylinder_set": 1454,
+    "cylinder_3": 846,
+    "cylinder_2": 975,
+    "cylinder_1": 948,
+    "rape": 635,
+    "broccoli": 757,
+    "potato": 625,
+    "h_qing_jiao": 175,
+    "celery": 625,
+    "mushroom": 501,
+    "flammulina velutipes": 544,
+    "tomato": 419,
+    "green bean": 432
+  },
+  "val_category_annotations": {
+    "water_l3": 87,
+    "water_l2": 81,
+    "water_l1": 90,
+    "water": 427,
+    "storage": 183,
+    "lable_yellow": 170,
+    "lable_blue": 151,
+    "ball_yellow": 266,
+    "ball_blue": 289,
+    "animal": 353,
+    "cylinder_set": 316,
+    "cylinder_3": 165,
+    "cylinder_2": 212,
+    "cylinder_1": 169,
+    "rape": 122,
+    "broccoli": 139,
+    "potato": 110,
+    "h_qing_jiao": 31,
+    "celery": 126,
+    "mushroom": 96,
+    "flammulina velutipes": 100,
+    "tomato": 84,
+    "green bean": 81
+  }
+}

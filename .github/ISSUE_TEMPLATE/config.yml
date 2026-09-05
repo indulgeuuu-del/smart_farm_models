@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安全问题
+    url: https://github.com/indulgeuuu-del/smart_farm_models/security/advisories/new
+    about: 不要在公开 Issue 中提交令牌、设备地址、原始视频或其他敏感信息。
+  - name: 使用交流
+    url: https://github.com/indulgeuuu-del/smart_farm_models/issues
+    about: 经验交流、方案讨论和不适合缺陷模板的问题请先查看已有 Issue，再新建带上下文的问题。

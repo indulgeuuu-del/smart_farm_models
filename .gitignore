@@ -1,0 +1,96 @@
+# Python environments and caches
+.venv/
+.venv_*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local editor and tool state
+.vscode/
+.idea/
+.playwright-mcp/
+.worktrees/
+.DS_Store
+Thumbs.db
+
+# The public repository uses the root README as its single guide.
+**/README
+**/README.md
+**/readme
+**/readme.md
+!/README.md
+
+# External reference repositories kept beside this project
+baidu_smartcar_2026/
+baidu-smart-traffic-lower/
+bd_car2024/
+smartcar_baidu_21/
+tools/
+
+# Pinned third-party source is installed locally from third_party/paddledetection.lock.json.
+third_party/PaddleDetection/
+
+# Local source images and original dataset copies
+Dataset_all/
+MyDataset/
+datasets/**/*.jpg
+datasets/**/*.jpeg
+datasets/**/*.png
+datasets/**/*.bmp
+datasets/**/raw/
+datasets/**/raw_crop/
+datasets/**/labelme_json/
+
+# Training checkpoints and generated run directories
+outputs/
+deploy/exported_models/
+deploy/infer_test/
+deploy/onboard_handoff/
+deploy/onboard/**/runs/
+deploy/onboard/**/smoke_*/
+output/
+bbox_pr_curve/
+vdl_log_dir/
+tmp/
+logs/*.log
+logs/**/*.log
+logs/*progress.md
+
+# Local review, UI probing and training-monitor artifacts. These are not
+# source files and must not enter a public commit by accident.
+.verify/
+.workbuddy/
+.probe_*.py
+.console_preview.png
+console_ui_design_*.md
+project_review_*.md
+*_review_*.md
+launch_train_console.bat
+train_console/
+
+# Binary training checkpoints. Public release packages are zip archives.
+*.pdparams
+*.pdopt
+*.pdema
+*.pdstates
+*.pdmodel
+*.pdiparams
+*.pdiparams.info
+*.nb
+*.onnx
+*.engine
+*.trt
+
+# Keep generated annotation metadata without adding image copies.
+!datasets/**/
+!datasets/**/*.json
+!datasets/**/*.jsonl
+!datasets/**/*.csv
+!datasets/**/*.txt
+!datasets/**/*.yml
+!datasets/**/*.yaml

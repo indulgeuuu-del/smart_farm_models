@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "repository": "indulgeuuu-del/smart_farm_models",
+  "release": {
+    "name": "Public data archives 2026-08-24",
+    "tag_name": "data-archives-20260824",
+    "created_at": "2026-08-23T16:20:06Z",
+    "published_at": "2026-08-28T07:08:04Z",
+    "status_at_documentation_time": "published_non_draft_non_prerelease",
+    "publicly_downloadable": true,
+    "url": "https://github.com/indulgeuuu-del/smart_farm_models/releases/tag/data-archives-20260824"
+  },
+  "archive": {
+    "part_count": 45,
+    "part_name_pattern": "part-{index:03d}.tar.gz",
+    "parts": "part-001.tar.gz through part-045.tar.gz",
+    "expected_assets": [
+      "part-001.tar.gz",
+      "part-002.tar.gz",
+      "part-003.tar.gz",
+      "part-004.tar.gz",
+      "part-005.tar.gz",
+      "part-006.tar.gz",
+      "part-007.tar.gz",
+      "part-008.tar.gz",
+      "part-009.tar.gz",
+      "part-010.tar.gz",
+      "part-011.tar.gz",
+      "part-012.tar.gz",
+      "part-013.tar.gz",
+      "part-014.tar.gz",
+      "part-015.tar.gz",
+      "part-016.tar.gz",
+      "part-017.tar.gz",
+      "part-018.tar.gz",
+      "part-019.tar.gz",
+      "part-020.tar.gz",
+      "part-021.tar.gz",
+      "part-022.tar.gz",
+      "part-023.tar.gz",
+      "part-024.tar.gz",
+      "part-025.tar.gz",
+      "part-026.tar.gz",
+      "part-027.tar.gz",
+      "part-028.tar.gz",
+      "part-029.tar.gz",
+      "part-030.tar.gz",
+      "part-031.tar.gz",
+      "part-032.tar.gz",
+      "part-033.tar.gz",
+      "part-034.tar.gz",
+      "part-035.tar.gz",
+      "part-036.tar.gz",
+      "part-037.tar.gz",
+      "part-038.tar.gz",
+      "part-039.tar.gz",
+      "part-040.tar.gz",
+      "part-041.tar.gz",
+      "part-042.tar.gz",
+      "part-043.tar.gz",
+      "part-044.tar.gz",
+      "part-045.tar.gz",
+      "SHA256SUMS.txt",
+      "source_manifest.tsv",
+      "part_plan.csv",
+      "scope.json",
+      "RELEASE_NOTES.md"
+    ],
+    "required_sidecars": [
+      "SHA256SUMS.txt",
+      "source_manifest.tsv",
+      "part_plan.csv",
+      "scope.json",
+      "RELEASE_NOTES.md"
+    ],
+    "restore_instruction": "Download only the assets listed in archive.expected_assets. Verify every archive against SHA256SUMS.txt, then extract all part-*.tar.gz archives into an empty repository root. Compare restored paths and sizes with source_manifest.tsv before using any data.",
+    "unlisted_asset_policy": "Ignore and report release assets that are not listed in archive.expected_assets; do not delete them automatically."
+  },
+  "reproduction_tools": {
+    "builder": "scripts/release/build_public_data_release.ps1",
+    "downloader": "scripts/release/download_public_release.py",
+    "verifier": "scripts/release/verify_public_release.py",
+    "new_archive_policy": "Use a new tag for every replacement archive; do not silently overwrite a published asset."
+  },
+  "historical_release_notes": [
+    "The published 2026-08-24 archive predates the sanitized release builder and may contain machine-specific metadata and runtime logs.",
+    "New public archives must be generated with scripts/release/build_public_data_release.ps1 and verified with scripts/release/verify_public_release.py.",
+    "The local progress log is not part of the public Git worktree or new release archives."
+  ],
+  "git_worktree_model_packages": [
+    {
+      "path": "deploy/public_models/target_det_27cls_20260818_epoch73_best_formal.zip",
+      "sha256_sidecar": "deploy/public_models/target_det_27cls_20260818_epoch73_best_formal.zip.sha256"
+    },
+    {
+      "path": "deploy/public_models/nav_control_lane_set7_20260808_balanced_v3_light_corner_epoch32.zip",
+      "sha256_sidecar": "deploy/public_models/nav_control_lane_set7_20260808_balanced_v3_light_corner_epoch32.zip.sha256"
+    }
+  ],
+  "warning": "The archive is public, but it must not be described as locally restored or fully verified until all parts have been downloaded, checked against SHA256SUMS.txt, and extracted successfully."
+}

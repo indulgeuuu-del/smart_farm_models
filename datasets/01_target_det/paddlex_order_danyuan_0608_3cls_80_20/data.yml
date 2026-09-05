@@ -1,0 +1,7 @@
+train: images
+val: images
+nc: 3
+names:
+  - order
+  - danyuan_2
+  - danyuan_1

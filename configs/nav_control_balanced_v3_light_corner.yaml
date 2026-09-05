@@ -1,0 +1,64 @@
+preset: balanced_v3_light_corner
+framework: PaddlePaddle
+model: PaddleLaneCnnModel
+input_size: [128, 128]
+epochs: 120
+batch_size: 128
+eval_batch_size: 256
+optimizer: adamw
+weight_decay: 0.0001
+learning_rate: 0.00035
+lr_scheduler: cosine_warmup
+lr_t_max: 120
+warmup_epochs: 5
+warmup_start_lr: 0.000035
+lr_eta_min: 0.000005
+eval_interval: 2
+early_stop_min_epochs: 40
+early_stop_patience_evals: 15
+early_stop_min_delta: 0.00005
+label_loss_weight_mode: none
+deviation_loss_weight_mode: corner_focus_v1
+sample_weight_mode: none
+augmentation_profile: light_corner_v3
+seed: 20260807
+device: gpu:0
+
+dataset_contract:
+  source: lane_set(7) 20260724_185938
+  train_sessions: [4, 5, 6, 8, 14, 16, 18, 27, 34, 35, 36, 37, 39, 40, 42, 43, 44, 45, 47, 48, 49, 50]
+  validation_sessions: [52, 54]
+  test_sessions: [51]
+  drop_zero_speed: true
+  drop_tail_frames_per_session: 100
+  purple_region_included: false
+  automatic_label_shift: false
+
+selection:
+  original_metrics:
+    - global_mae
+    - transition_mae
+    - corner_mae
+    - hard_mae
+    - understeer_rate
+    - direction_error_rate
+    - prediction_delta_p95
+    - spike_count
+  illumination_variants:
+    - low_light
+    - overexposure
+    - low_contrast
+    - left_shadow
+    - right_shadow
+    - center_glare
+    - warm_cast
+    - cool_cast
+  compare_against:
+    - official_corner_best_epoch45
+    - balanced_v2_corner_best_epoch30
+  real_vehicle_replacement_requires_same_control_ab: true
+
+output_contract:
+  output_0: deviation
+  output_1: compatibility_zero
+  shape: [batch, 2]

@@ -1,0 +1,60 @@
+{
+  "official_source": "train=image_set_lane,val=image_set_lane_eval",
+  "official_splits": {
+    "train": "image_set_lane",
+    "val": "image_set_lane_eval"
+  },
+  "source_policy": "workspace_copy",
+  "sources": [
+    {
+      "name": "image_set_lane",
+      "path": "datasets\\08_nav_control_optional\\raw\\image_set_lane",
+      "data_json": "datasets\\08_nav_control_optional\\raw\\image_set_lane\\data.json",
+      "records": 5301,
+      "status": "official_train",
+      "state0_values": [
+        0.0,
+        0.15
+      ],
+      "state_ranges": [
+        [
+          0.0,
+          0.15
+        ],
+        [
+          -0.09375,
+          0.11785714
+        ],
+        [
+          -0.74014286,
+          0.942
+        ]
+      ]
+    },
+    {
+      "name": "image_set_lane_eval",
+      "path": "datasets\\08_nav_control_optional\\raw\\image_set_lane_eval",
+      "data_json": "datasets\\08_nav_control_optional\\raw\\image_set_lane_eval\\data.json",
+      "records": 2254,
+      "status": "official_val",
+      "state0_values": [
+        0.0,
+        0.15
+      ],
+      "state_ranges": [
+        [
+          0.0,
+          0.15
+        ],
+        [
+          -0.05357143,
+          0.01785714
+        ],
+        [
+          -0.72332143,
+          0.87471429
+        ]
+      ]
+    }
+  ]
+}

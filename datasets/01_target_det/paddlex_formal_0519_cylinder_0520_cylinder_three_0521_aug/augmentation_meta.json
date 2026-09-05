@@ -1,0 +1,34 @@
+{
+  "source_dir": "datasets\\01_target_det\\paddlex_formal_0519_cylinder_0520_cylinder_three_0521",
+  "policy": "target_det_train_only_offline_augmentation",
+  "augmentations": [
+    "flip",
+    "exposure",
+    "blur",
+    "noise",
+    "shadow"
+  ],
+  "variants_per_image": 1,
+  "hard_case_labels": [
+    "cylinder_3",
+    "cylinder_1",
+    "cylinder_2",
+    "cylinder_set",
+    "cargo",
+    "ball_blue",
+    "ball_yellow",
+    "water",
+    "water_l1",
+    "water_l2",
+    "water_l3"
+  ],
+  "hard_case_extra": 1,
+  "seed": 20260430,
+  "original_train_images": 2664,
+  "augmented_train_images": 4475,
+  "train_images": 7139,
+  "train_annotations": 13226,
+  "val_images": 666,
+  "test_images": 666,
+  "note": "Only train split is augmented; val/test are copied unchanged."
+}
