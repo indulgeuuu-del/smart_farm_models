@@ -3,6 +3,6 @@
 -r base.txt
 paddlepaddle-gpu==3.2.2
 paddlex==3.4.3
-labelme==6.0.0
+labelme==7.7.0
 pycocotools==2.0.8
 visualdl==2.5.3
